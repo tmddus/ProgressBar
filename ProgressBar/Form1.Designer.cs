@@ -59,22 +59,24 @@
             // 
             // btnEnd
             // 
+            this.btnEnd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnEnd.Location = new System.Drawing.Point(147, 37);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(176, 32);
             this.btnEnd.TabIndex = 2;
             this.btnEnd.Text = "멈춤";
-            this.btnEnd.UseVisualStyleBackColor = true;
+            this.btnEnd.UseVisualStyleBackColor = false;
             this.btnEnd.Click += new System.EventHandler(this.BtnEnd_Click);
             // 
             // btnReset
             // 
+            this.btnReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnReset.Location = new System.Drawing.Point(147, 76);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(176, 32);
             this.btnReset.TabIndex = 3;
             this.btnReset.Text = "리셋";
-            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // lblStatus
